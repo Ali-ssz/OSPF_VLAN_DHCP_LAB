@@ -14,7 +14,7 @@ r
 - سيرفر DHCP في VLAN 100.  
 - ثلاثة راوترات متصلة ببعضها باستخدام OSPF.
 
-("Topology")  
+(OSPF_VLAN_DHCP_LAB/Topology.png)  
 *صورة توضح التصميم الكامل للشبكة*
 
 ---
@@ -39,22 +39,22 @@ r
 - كل VLAN له Subinterface على الراوتر مع IP خاص.  
 - تم تفعيل Inter-VLAN Routing.
 
-(Router CLI)  
+(OSPF_VLAN_DHCP_LAB/Router.png)  
 *صورة تبين إعدادات Subinterfaces على الراوتر*
 
 ---
 
 ## 4️ اختبار الاتصال (Connectivity Tests)
 ### 4.1 Ping بين VLANs
-![Ping VLANs Screenshot](images/ping_vlans.png)  
+(OSPF_VLAN_DHCP_LAB/Ping_Vlans.png)  
 *تأكيد أن الأجهزة في VLAN مختلفة تتواصل بنجاح*
 
 ### 4.2 Ping إلى السيرفر
-![Ping Server Screenshot](images/ping_server.png)  
+(OSPF_VLAN_DHCP_LAB/Ping_Server.png)  
 *تأكيد أن DHCP يعمل والأجهزة تستطيع الوصول للسيرفر*
 
 ### 4.3 Tracert
-![Tracert Screenshot](images/tracert.png)  
+(OSPF_VLAN_DHCP_LAB/Tracert.png) 
 *توضيح مسار الحزم من جهاز في VLAN إلى السيرفر*
 
 ---
@@ -63,7 +63,7 @@ r
 - DHCP Pool لكل VLAN لتعطي IP تلقائي للأجهزة.  
 - مثال: VLAN10 Pool: 192.168.10.10 - 192.168.10.50
 
-![DHCP Screenshot](images/dhcp.png)  
+(OSPF_VLAN_DHCP_LAB/DHCP.png)  
 *صورة توضح إعداد DHCP لكل VLAN*
 
 ---
