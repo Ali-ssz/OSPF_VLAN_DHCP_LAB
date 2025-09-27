@@ -14,7 +14,8 @@ r
 - سيرفر DHCP في VLAN 100.  
 - ثلاث راوترات متصلة ببعضها باستخدام OSPF.
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bc7547fa-f770-4717-bd4c-9797a84579a0" />  
+<img width="1920" height="1080" alt="Topology" src="https://github.com/user-attachments/assets/cb2f4984-1887-4b74-8864-e6c52f1d5ee9" />
+  
 *صورة توضح التصميم الكامل للشبكة*
 
 ---
@@ -47,17 +48,20 @@ r
 
 ## 4️ اختبار الاتصال (Connectivity Tests)
 ### 4.1 اختبار PING بين VLANS
-<img width="1920" height="1080" alt="Ping_Vlans" src="https://github.com/user-attachments/assets/e6ecd5f9-9fc2-42bf-9e25-2dc4d74e0d48" />
+<img width="1920" height="1080" alt="Ping_Vlans" src="https://github.com/user-attachments/assets/28e9051f-e0b6-40d8-9a07-d10a6ef4b463" />
+
   
 *تأكيد أن الأجهزة في VLAN مختلفة تتواصل بنجاح*
 
 ### 4.2 اختبار PING إلى السيرفر
-<img width="1920" height="1080" alt="Ping_Server" src="https://github.com/user-attachments/assets/c67a84cb-6910-4ab2-b57e-63fe9380a569" />
+<img width="1920" height="1080" alt="Png_Server" src="https://github.com/user-attachments/assets/119ec1b7-d770-4504-a42c-9477a8dd3050" />
+
   
 *تأكيد أن DHCP يعمل والأجهزة تستطيع الوصول للسيرفر*
 
 ### 4.3 Tracert
-<img width="1920" height="1080" alt="Tracert" src="https://github.com/user-attachments/assets/9dae973c-65d6-4fd6-ba9d-175dcc545901" />
+<img width="1920" height="1080" alt="Tracert" src="https://github.com/user-attachments/assets/8582791e-d9ff-43b5-8c2c-988901b62023" />
+
  
 *توضيح مسار الحزم من جهاز في VLAN إلى السيرفر*
 
