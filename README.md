@@ -12,7 +12,7 @@ r
 - 9 أجهزة موزعة على 9 VLANs مختلفة.  
 - راوتر مركزي يربط VLANs (Router-on-a-Stick).  
 - سيرفر DHCP في VLAN 100.  
-- ثلاثة راوترات متصلة ببعضها باستخدام OSPF.
+- ثلاث راوترات متصلة ببعضها باستخدام OSPF.
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bc7547fa-f770-4717-bd4c-9797a84579a0" />  
 *صورة توضح التصميم الكامل للشبكة*
