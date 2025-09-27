@@ -40,7 +40,8 @@ r
 - كل VLAN له Subinterface على الراوتر مع IP خاص.  
 - تم تفعيل Inter-VLAN Routing.
 
-<img width="1920" height="1080" alt="Router" src="https://github.com/user-attachments/assets/1bce6d81-a16e-4e45-83a3-36f79ed728ee" />
+<img width="873" height="879" alt="Router" src="https://github.com/user-attachments/assets/7576aa3c-899c-4bb0-ac8e-b9ff9ec6a61e" />
+
   
 *صورة تبين إعدادات Subinterfaces على الراوتر*
 
