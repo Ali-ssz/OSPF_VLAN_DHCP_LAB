@@ -72,7 +72,8 @@ r
 - تم عمل DHCP POOL لكل VLAN لإعطاء IP تلقائي للأجهزة     
 - مثال: DHCP POOL10 يبدأ التوزيع من IP : 192.168.10.11
 
-<img width="1920" height="1080" alt="DHCP" src="https://github.com/user-attachments/assets/d54987de-f72b-43d0-a173-effd74aadc8a" />
+<img width="1920" height="1080" alt="DHCP-POOL" src="https://github.com/user-attachments/assets/61d24d57-0106-4ee0-9d0a-56547647f018" />
+
   
 *صورة توضح إعداد DHCP لكل VLAN*
 
