@@ -1,6 +1,6 @@
 # OSPF_VLAN_DHCP_LAB
 r
-# لاب عملي: OSPF,Inter-VLAN Routing,VLANs and DHCP
+# لاب عملي : OSPF,Inter-VLAN Routing,VLANs and DHCP
 
 ## وصف المشروع
 هذا اللاب يعرض كيفية تصميم شبكة متعددة VLANs (10 VLANs) وربطها باستخدام Router-on-a-Stick، مع خادم DHCP لكل VLAN، وربط الراوترات الثلاثة باستخدام بروتوكول OSPF للتوجيه الديناميكي.  
