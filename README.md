@@ -82,12 +82,7 @@ r
 <img width="852" height="638" alt="OSPF_Routing_Table" src="https://github.com/user-attachments/assets/5b8ac4d3-5f99-48c1-970b-cfcc151af725" />
 <img width="852" height="182" alt="OSPF_Neighbors" src="https://github.com/user-attachments/assets/1e018e5d-4222-474a-a984-fbacb3044b4e" />
 
-
-
-
-
-
-
+---
 
 
 LinkedIn : https://www.linkedin.com/in/ali-alzahrani-b8a7a3347/
