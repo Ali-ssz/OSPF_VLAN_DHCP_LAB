@@ -65,7 +65,7 @@ r
 
 ## 5️ إعداد DHCP على السيرفر
 - تم عمل DHCP POOL لكل VLAN لإعطاء IP تلقائي للأجهزة     
-- مثال: VLAN POOL10 : 192.168.10.11
+- مثال: DHCP POOL10 يبدأ التوزيع من IP : 192.168.10.11
 
 <img width="1920" height="1080" alt="DHCP" src="https://github.com/user-attachments/assets/d54987de-f72b-43d0-a173-effd74aadc8a" />
   
@@ -80,6 +80,11 @@ r
 **مثال Router1:**
 
 <img width="852" height="638" alt="OSPF_Routing_Table" src="https://github.com/user-attachments/assets/5b8ac4d3-5f99-48c1-970b-cfcc151af725" />
+<img width="852" height="182" alt="OSPF_Neighbors" src="https://github.com/user-attachments/assets/1e018e5d-4222-474a-a984-fbacb3044b4e" />
+
+
+
+
 
 
 
