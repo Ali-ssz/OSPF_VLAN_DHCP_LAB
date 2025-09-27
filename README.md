@@ -84,3 +84,7 @@ r
 
 
 
+
+LinkedIn : https://www.linkedin.com/in/ali-alzahrani-b8a7a3347/
+
+Email : assz1419@hotmail.com
