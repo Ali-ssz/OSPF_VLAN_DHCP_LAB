@@ -14,7 +14,8 @@ r
 - سيرفر DHCP في VLAN 100.  
 - ثلاث راوترات متصلة ببعضها باستخدام OSPF.
 
-<img width="1920" height="1080" alt="Topology" src="https://github.com/user-attachments/assets/cb2f4984-1887-4b74-8864-e6c52f1d5ee9" />
+<img width="1920" height="1019" alt="Topology" src="https://github.com/user-attachments/assets/3936bb38-c57c-4e56-b51b-746b31bde02b" />
+
   
 *صورة توضح التصميم الكامل للشبكة*
 
@@ -40,7 +41,8 @@ r
 - كل VLAN له Subinterface على الراوتر مع IP خاص.  
 - تم تفعيل Inter-VLAN Routing.
 
-<img width="873" height="879" alt="Router" src="https://github.com/user-attachments/assets/7576aa3c-899c-4bb0-ac8e-b9ff9ec6a61e" />
+<img width="873" height="210" alt="Router-Subinterfaces" src="https://github.com/user-attachments/assets/1cf691fc-f632-4c5d-8600-57dabe09c46a" />
+
 
   
 *صورة تبين إعدادات Subinterfaces على الراوتر*
@@ -49,19 +51,22 @@ r
 
 ## 4️ اختبار الاتصال (Connectivity Tests)
 ### 4.1 اختبار PING بين VLANS
-<img width="1920" height="1080" alt="Ping_Vlans" src="https://github.com/user-attachments/assets/28e9051f-e0b6-40d8-9a07-d10a6ef4b463" />
+<img width="1920" height="1017" alt="Ping_Vlans" src="https://github.com/user-attachments/assets/b4d8fd15-5768-4950-a189-399efca8530c" />
+
 
   
 *تأكيد أن الأجهزة في VLAN مختلفة تتواصل بنجاح*
 
 ### 4.2 اختبار PING إلى السيرفر
-<img width="1920" height="1080" alt="Png_Server" src="https://github.com/user-attachments/assets/119ec1b7-d770-4504-a42c-9477a8dd3050" />
+<img width="1920" height="1017" alt="Png_Server" src="https://github.com/user-attachments/assets/43727804-b936-472f-8b8c-21eedb654ac1" />
+
 
   
 *تأكيد أن DHCP يعمل والأجهزة تستطيع الوصول للسيرفر*
 
 ### 4.3 Tracert
-<img width="1920" height="1080" alt="Tracert" src="https://github.com/user-attachments/assets/8582791e-d9ff-43b5-8c2c-988901b62023" />
+<img width="1920" height="1019" alt="Tracert" src="https://github.com/user-attachments/assets/300b21e7-4d85-468f-9252-45c484645c8c" />
+
 
  
 *توضيح مسار الحزم من جهاز في VLAN إلى السيرفر*
@@ -72,7 +77,8 @@ r
 - تم عمل DHCP POOL لكل VLAN لإعطاء IP تلقائي للأجهزة     
 - مثال: DHCP POOL10 يبدأ التوزيع من IP : 192.168.10.11
 
-<img width="1920" height="1080" alt="DHCP-POOL" src="https://github.com/user-attachments/assets/61d24d57-0106-4ee0-9d0a-56547647f018" />
+<img width="1920" height="1017" alt="DHCP-POOL" src="https://github.com/user-attachments/assets/700cb454-05b3-4eda-829d-596223e1730d" />
+
 
   
 *صورة توضح إعداد DHCP لكل VLAN*
@@ -85,9 +91,10 @@ r
 
 **مثال Router1:**
 
-<img width="852" height="638" alt="OSPF_Routing_Table" src="https://github.com/user-attachments/assets/5b8ac4d3-5f99-48c1-970b-cfcc151af725" />
-<img width="852" height="182" alt="OSPF_Neighbors" src="https://github.com/user-attachments/assets/1e018e5d-4222-474a-a984-fbacb3044b4e" />
-<img width="874" height="883" alt="OSPF-Details" src="https://github.com/user-attachments/assets/c92fcd1c-e1ee-459d-94ee-4b6df2ae55e3" />
+## <img width="876" height="98" alt="OSPF_Neighbors" src="https://github.com/user-attachments/assets/b985d443-63f3-4266-82c1-20bd4983857a" /> 
+## <img width="871" height="558" alt="OSPF_Routing_Table" src="https://github.com/user-attachments/assets/898fa54b-e10c-4b49-97ed-45694c16674b" />
+<img width="869" height="145" alt="OSPF-Details" src="https://github.com/user-attachments/assets/62b41c89-c652-4904-b282-4eb33e16b0f1" />
+
 
 
 ---
